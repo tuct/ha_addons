@@ -175,3 +175,4 @@ function stopClock() {
 }
 
 startClock();
+document.body.webkitRequestFullScreen();
