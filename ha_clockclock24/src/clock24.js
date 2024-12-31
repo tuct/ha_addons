@@ -175,4 +175,6 @@ function stopClock() {
 }
 
 startClock();
-document.body.webkitRequestFullScreen();
+document.querySelector(".art").addEventListener("click", (e) => {
+  webkitRequestFullscreen();
+});
