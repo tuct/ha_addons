@@ -1,6 +1,6 @@
 name: "ClockClock24"
 description: "Just a clock i clock"
-version: "1.0.2"
+version: "1.0.3"
 slug: "clock_clock_24"
 init: false
 arch:

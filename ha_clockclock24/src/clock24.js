@@ -122,7 +122,7 @@ window.addEventListener("keydown", (e) => {
 });
 
 document.querySelector(".art").addEventListener("click", (e) => {
-  document.querySelector(".text").classList.toggle("s-hidden");
+  document.body.webkitRequestFullScreen();
   document.querySelector(".art").classList.toggle("art--full");
 });
 
@@ -175,6 +175,3 @@ function stopClock() {
 }
 
 startClock();
-document.querySelector(".art").addEventListener("click", (e) => {
-  webkitRequestFullscreen();
-});
