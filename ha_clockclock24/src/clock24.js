@@ -123,7 +123,6 @@ window.addEventListener("keydown", (e) => {
 
 document.querySelector(".art").addEventListener("click", (e) => {
   document.body.webkitRequestFullScreen();
-  document.querySelector(".art").classList.toggle("art--full");
 });
 
 function hourToDegrees(hour) {
